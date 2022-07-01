@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background-color: gray;
+    margin-top: 7vh;
+    width: 80vw;
+    height: 200vh;
+}
+.div-1{
+    background-color: white;
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+}
+.div-1 img{
+    width: 80vw;
+    height: 50vh;
+}
+.div-1 p{
+    position: absolute;
+}
+.div-2{
+    background-color: orange;
+    width: 80vw;
+    height: 50vh;
+    border: 5px solid white;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+.div-2 img{
+    width: 40vw;
+    height: 40vh;
+}
+.div-3{
+    background-color: indigo;
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    border: 5px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.div-3 img{
+    width: 40vw;
+    height: 40vh;
+}
+.div-4{
+    background-color: lightblue;
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    border: 5px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.div-4 img{
+    width: 40vw;
+    height: 40vh;
+}
