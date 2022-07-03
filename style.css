@@ -7,64 +7,86 @@
 body{
     background-color: gray;
 }
-.container{
+#container{
     background-color: gray;
     margin-top: 7vh;
-    width: 80vw;
-    height: 200vh;
+    width: 70vw;
+    height: 240vh;
+    text-align: center;
 }
-.div-1{
+#div-1{
     background-color: white;
-    width: 80vw;
-    height: 50vh;
-    text-align: center;
-    font-size: 3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Satisfy', cursive;
+    width: 70vw;
+    height: 60vh;
+    margin: 0px 0px 7px 0px;
 }
-.div-1 img{
-    width: 80vw;
-    height: 50vh;
+#titleImage{
+    width: 70vw;
+    height: 60vh;
 }
-.div-1 p{
+#titleName{
+    color: black;
     position: absolute;
+    font-size: 4em;
+    padding: 120px 200px;
+    font-family: 'Archivo Black', sans-serif;
 }
-.div-2{
+#div-2{
     background-color: orange;
-    width: 80vw;
-    height: 50vh;
-    border: 5px solid white;
+    width: 70vw;
+    height: 60vh;
+    margin: 0px 0px 7px 0px;
+}
+#favFood1{
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
 }
-.div-2 img{
-    width: 40vw;
-    height: 40vh;
-}
-.div-3{
-    background-color: indigo;
-    width: 80vw;
-    height: 50vh;
+#foodDescription{
     text-align: center;
-    border: 5px;
     font-family: 'Archivo Black', sans-serif;
 }
-.div-3 img{
+#favFoodImage1{
     width: 40vw;
     height: 40vh;
+    border: 4px solid white;
+    padding: 5px;
 }
-.div-4{
-    background-color: lightblue;
-    width: 80vw;
-    height: 50vh;
+#div-3{
+    background-color: #b43ccf;
+    width: 70vw;
+    height: 60vh;
+    margin: 0px 0px 7px 0px;
+}
+#favFood2{
     text-align: center;
-    border: 5px;
     font-family: 'Archivo Black', sans-serif;
 }
-.div-4 img{
+#foodDescription2{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+#favFoodImage2{
     width: 40vw;
     height: 40vh;
+    border: 4px solid white;
+    padding: 5px;
+}
+#div-4{
+    background-color: #3c9bcf;
+    width: 70vw;
+    height: 60vh;
+}
+#favFood3{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+#foodDescription3{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+#favFoodImage3{
+    width: 40vw;
+    height: 40vh;
+    border: 4px solid white;
+    padding: 5px;
 }
